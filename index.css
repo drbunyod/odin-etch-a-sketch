@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+/* body {
+
+} */
+
+.container {
+    display: flex;
+}
+
+.container > div > div {
+    border: 1px solid #000000;
+    border-bottom: none;
+    border-right: none;
+}
+
+.container > div:first-of-type > div {
+    border-left: 3px solid #000000;
+}
+
+.container > div > div:first-of-type {
+    border-top: 3px solid #000000;
+}
+
+.container > div:last-of-type > div {
+    border-right: 3px solid #000000;
+}
+
+.container > div > div:last-of-type {
+    border-bottom: 3px solid #000000;
+}
+
+.active {
+    background-color: #000000;
+}
