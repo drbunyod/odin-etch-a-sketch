@@ -19,9 +19,11 @@ function createGrid() {
                 cell.style.height = `${cellWidth}px`;
                 cell.style.width = `${cellWidth}px`;
                 cell.addEventListener("mouseover", (e) => {
-                    const opacity = e.target.classList.length * 10;
-                    const opacityClass = "active-" + opacity;
-                    e.target.classList.add(opacityClass);
+                    if (e.target.classList.length < 10) {
+                        const opacity = (e.target.classList.length + 1) * 10;
+                        const opacityClass = "active-" + opacity;
+                        e.target.classList.add(opacityClass);
+                    }
                 });
 
                 row.appendChild(cell);
