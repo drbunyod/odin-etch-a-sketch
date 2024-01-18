@@ -32,6 +32,42 @@
     border-bottom: 3px solid #000000;
 }
 
-.active {
-    background-color: #000000;
+.active-10 {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.active-20 {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.active-30 {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.active-40 {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.active-50 {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.active-60 {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.active-70 {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.active-80 {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.active-90 {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.active-100 {
+    background-color: rgba(0, 0, 0, 1);
 }
